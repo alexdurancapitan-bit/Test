@@ -28,9 +28,9 @@ preguntas = [
         "correcta": "Francis Menuge"
     },
     {
-        "texto": "¿Que significan las siglas EDP?",
-        "opciones": ["", "eau de parfum", "es demasiado personal"],
-        "correcta": "eau de parfum"
+        "texto": "¿    Cual de estas frases indica que el perfume es muy duradero?",
+        "opciones": ["", "eau de parfum", "elixir", "eau de toilet", "parfum"],
+        "correcta": "elixir"
     },
    
 {
