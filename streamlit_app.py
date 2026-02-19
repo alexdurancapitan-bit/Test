@@ -3,17 +3,17 @@ import streamlit as st
 # 1. EL ARCHIVADOR (Base de datos con 10 preguntas)
 preguntas = [
     {
-        "texto": "¿el perfume 9pm en que momento se deberia usar?",
+        "texto": "¿El perfume 9pm en que momento se deberia usar?",
         "opciones": ["", "a las 9pm", "clima frio", "por la mañana", "nunca"],
         "correcta": "clima frio"
     },
-    {
-        "texto": "¿cual es la mejor variante del one million?",
+    
+   {     "texto": "¿Cual es la mejor variante del one million?",
         "opciones": ["", "one million prive", "elixir", "intense", "one millon original"],
         "correcta": "elixir"
     },
     {
-        "texto": "¿que forma tiene la familia de invictus?",
+        "texto": "¿Que forma tiene la familia de invictus?",
         "opciones": ["", "trofeo", "salchicha", "lingote de oro"],
         "correcta": "trofeo"
     },
@@ -23,12 +23,12 @@ preguntas = [
         "correcta": "Carolina Herrera"
     },
     {
-        "texto": "¿como se llama el fundador de jean paul gaultier?",
+        "texto": "¿Como se llama el fundador de jean paul gaultier?",
         "opciones": ["", "jean paul gaultier", "Francis Menuge", "Paco Rabbanne"],
         "correcta": "Francis Menuge"
     },
     {
-        "texto": "¿    Cual de estas frases indica que el perfume es muy duradero?",
+        "texto": "¿Cual de estas frases indica que el perfume es muy duradero?",
         "opciones": ["", "eau de parfum", "elixir", "eau de toilet", "parfum"],
         "correcta": "elixir"
     },
