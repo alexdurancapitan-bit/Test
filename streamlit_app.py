@@ -35,17 +35,17 @@ preguntas = [
    
 {
     "texto": "¿Qué familia olfativa incluye aromas como rosa y jazmín?",
-    "opciones": ["Amaderada", "Cítrica", "Floral", "Fougère"],
+    "opciones": ["", "Amaderada", "Cítrica", "Floral", "Fougère"],
     "correcta": "Floral"
 },
 {
     "texto": "¿Dónde se recomienda aplicar el perfume para mayor duración?",
-    "opciones": ["En la ropa solamente", "En puntos de pulso", "En el cabello mojado", "En las manos"],
+    "opciones": ["", "En la ropa solamente", "En puntos de pulso", "En el cabello mojado", "En las manos"],
     "correcta": "En puntos de pulso"
 },
 {
     "texto": "¿Qué nota suele aportar profundidad y duración al perfume?",
-    "opciones": ["Nota de salida", "Nota media", "Nota de fondo", "Nota fresca"],
+    "opciones": ["", "Nota de salida", "Nota media", "Nota de fondo", "Nota fresca"],
     "correcta": "Nota de fondo"
 }
 
@@ -106,14 +106,14 @@ if boton_enviar:
         # Feedback por tramos
         if nota < 2:
             st.error("Muy insuficiente 😢 Debes estudiar mucho más.")
+            st. snow()
         elif 2 <= nota < 5:
+            st. snow()
             st.error("Insuficiente 📚 Necesitas repasar.")
         elif 5 <= nota < 6:
             st.warning("Suficiente 👍 Has aprobado por poco.")
-            st.balloons()
         elif 6 <= nota < 7:
             st.info("Bien 🙂 Buen trabajo.")
-            st.balloons()
         elif 7 <= nota < 9:
             st.success("Notable 👏 Muy buen resultado.")
             st.balloons()
