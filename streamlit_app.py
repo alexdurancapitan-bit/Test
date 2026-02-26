@@ -5,19 +5,19 @@ preguntas = [
     {
         "texto": "¿El perfume 9pm en que momento se deberia usar?",
         "opciones": ["", "a las 9pm", "clima frio", "por la mañana", "nunca"],
-         index=None, 
+         index=None,
         "correcta": "clima frio"
     },
     
    {     "texto": "¿Cual es la mejor variante del one million?",
         "opciones": ["", "one million prive", "elixir", "intense", "one millon original"],
-        index=None, 
+        index=None,
          "correcta": "elixir"
     },
     {
         "texto": "¿Que forma tiene la familia de invictus?",
         "opciones": ["", "trofeo", "salchicha", "lingote de oro"],
-       index=None, 
+       index=None,
         "correcta": "trofeo"
     },
     {
@@ -35,7 +35,7 @@ preguntas = [
     {
         "texto": "¿Cual de estas frases indica que el perfume es muy duradero?",
         "opciones": ["", "eau de parfum", "elixir", "eau de toilet", "parfum"],
-       index=None, 
+       index=None,
         "correcta": "elixir"
     },
    
