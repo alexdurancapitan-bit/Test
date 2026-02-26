@@ -4,57 +4,57 @@ import streamlit as st
 preguntas = [
     {
         "texto": "¿El perfume 9pm en que momento se deberia usar?",
-        "opciones": ["", "a las 9pm", "clima frio", "por la mañana", "nunca"],
-       index=None,
+        "opciones": ["a las 9pm", "clima frio", "por la mañana", "nunca"],
+       "index": None,
         "correcta": "clima frio"
     },
     
    {     "texto": "¿Cual es la mejor variante del one million?",
-        "opciones": ["", "one million prive", "elixir", "intense", "one millon original"],
-        index=None,
+        "opciones": ["one million prive", "elixir", "intense", "one millon original"],
+        "index": None,
          "correcta": "elixir"
     },
     {
         "texto": "¿Que forma tiene la familia de invictus?",
-        "opciones": ["", "trofeo", "salchicha", "lingote de oro"],
-       index=None,
+        "opciones": ["trofeo", "salchicha", "lingote de oro"],
+       "index": None,
         "correcta": "trofeo"
     },
     {
         "texto": "¿Qué diseñador/a creo la bad boy cobalto?",
-        "opciones": ["", "Carolina Herrera", "Paco Rabanne", "Antonio Banderas", "Apple"],
-       index=None, 
+        "opciones": ["Carolina Herrera", "Paco Rabanne", "Antonio Banderas", "Apple"],
+       "index": None, 
         "correcta": "Carolina Herrera"
     },
     {
         "texto": "¿Como se llama el fundador de jean paul gaultier?",
-        "opciones": ["", "jean paul gaultier", "Francis Menuge", "Paco Rabbanne"],
-       index=None, 
+        "opciones": ["jean paul gaultier", "Francis Menuge", "Paco Rabbanne"],
+       "index": None,
         "correcta": "Francis Menuge"
     },
     {
         "texto": "¿Cual de estas frases indica que el perfume es muy duradero?",
-        "opciones": ["", "eau de parfum", "elixir", "eau de toilet", "parfum"],
-       index=None,
+        "opciones": ["eau de parfum", "elixir", "eau de toilet", "parfum"],
+       "index": None,
         "correcta": "elixir"
     },
    
 {
     "texto": "¿Qué familia olfativa incluye aromas como rosa y jazmín?",
-    "opciones": ["", "Amaderada", "Cítrica", "Floral", "Fougère"],
-    index=None, 
+    "opciones": [ "Amaderada", "Cítrica", "Floral", "Fougère"],
+    "index": None, 
     "correcta": "Floral"
 },
 {
     "texto": "¿Dónde se recomienda aplicar el perfume para mayor duración?",
-    "opciones": ["", "En la ropa solamente", "En puntos de pulso", "En el cabello mojado", "En las manos"],
-    index=None, 
+    "opciones": [ "En la ropa solamente", "En puntos de pulso", "En el cabello mojado", "En las manos"],
+    "index": None,
     "correcta": "En puntos de pulso"
 },
 {
     "texto": "¿Qué nota suele aportar profundidad y duración al perfume?",
-    "opciones": ["", "Nota de salida", "Nota media", "Nota de fondo", "Nota fresca"],
-    index=None, 
+    "opciones": [ "Nota de salida", "Nota media", "Nota de fondo", "Nota fresca"],
+    "index": None, 
     "correcta": "Nota de fondo"
 }
 
