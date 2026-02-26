@@ -5,7 +5,7 @@ preguntas = [
     {
         "texto": "¿El perfume 9pm en que momento se deberia usar?",
         "opciones": ["a las 9pm", "clima frio", "por la mañana", "nunca"],
-       "index": None,
+       "index"= None,
         "correcta": "clima frio"
     },
     
